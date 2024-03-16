@@ -8,10 +8,12 @@
 /*c                  *********************/
 /*c                  *********************/
 /*c*/
+#ifndef BAREMETAL
 #include <stdio.h>
 #include <math.h>
 #include <sys/time.h>
 #include <sys/resource.h>
+#endif
 
 #include "photon.h"
 
